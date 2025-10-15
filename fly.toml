@@ -1,10 +1,10 @@
-# fly.toml app configuration file generated for wikabedia-backend on 2025-04-07T13:45:55-07:00
+# fly.toml app configuration file generated for download-dir on 2025-10-15T16:57:46Z
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
 app = 'download-dir'
-primary_region = 'sea'
+primary_region = 'lax'
 
 [build]
 
@@ -20,3 +20,4 @@ primary_region = 'sea'
   memory = '512mb'
   cpu_kind = 'shared'
   cpus = 1
+  memory_mb = 1024
